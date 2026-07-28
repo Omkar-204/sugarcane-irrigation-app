@@ -130,17 +130,17 @@ export default function Register() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
                 <div className="field">
                   <label htmlFor="village">Village</label>
-                  <input id="village" required value={form.village} onChange={update("village")} placeholder="Yalakatti" />
+                  <input id="village" required value={form.village} onChange={update("village")} placeholder="Satara" />
                 </div>
                 <div className="field">
                   <label htmlFor="taluk">Taluk</label>
-                  <input id="taluk" required value={form.taluk} onChange={update("taluk")} placeholder="Hukkeri" />
+                  <input id="taluk" required value={form.taluk} onChange={update("taluk")} placeholder="Daulatabad" />
                 </div>
               </div>
 
               <div className="field">
                 <label htmlFor="district">District</label>
-                <input id="district" required value={form.district} onChange={update("district")} placeholder="Belagavi" />
+                <input id="district" required value={form.district} onChange={update("district")} placeholder="Belgav" />
               </div>
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>

@@ -10,7 +10,7 @@ const PROBLEMS = [
 const BENEFICIARIES = [
   ["18–25k", "sugarcane farmers across Northern Karnataka"],
   ["1", "unified advisory reaching every geofenced plot"],
-  ["4", "languages for advisory delivery: EN, KN, MR, HI"]
+  ["4", "languages for advisory delivery: ENG, KAN, MAR, HIN"]
 ];
 
 export default function Home() {

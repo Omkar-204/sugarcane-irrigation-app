@@ -16,7 +16,7 @@ const SENSORS = [
 
 const ALERTS = [
   ["Soil moisture is low in Plot-12", "10:15 AM"],
-  ["Rainfall expected on 23 May", "08:00 AM"],
+  ["Rainfall expected on 23 July", "08:00 AM"],
   ["Irrigation delayed by 3 days", "06:00 AM"]
 ];
 
@@ -34,7 +34,7 @@ export default function Dashboard() {
           <div>
             <span className="eyebrow">Sample advisory · Plot-12 · 5.6 acres</span>
             <h1 style={{ fontSize: "2rem", marginTop: 8 }}>Ramesh Patil's dashboard</h1>
-            <p style={{ opacity: 0.7, marginTop: 6 }}>Sugarcane · Co 86032 · Planted 12 Nov 2023 · 6.2 months</p>
+            <p style={{ opacity: 0.7, marginTop: 6 }}>Sugarcane · Co 86032 · Planted 12 Nov 2025 · 6.2 months</p>
           </div>
           <span className="tag">Illustrative data — for demonstration only</span>
         </div>
@@ -63,7 +63,7 @@ export default function Dashboard() {
             >
               <div>
                 <div style={{ opacity: 0.6 }}>Next date</div>
-                <div style={{ fontSize: "1.1rem", marginTop: 4 }}>22 May</div>
+                <div style={{ fontSize: "1.1rem", marginTop: 4 }}>22 July</div>
               </div>
               <div>
                 <div style={{ opacity: 0.6 }}>Duration</div>
@@ -94,7 +94,7 @@ export default function Dashboard() {
               ))}
             </div>
             <p style={{ marginTop: 18, fontSize: "0.85rem", opacity: 0.75 }}>
-              Rainfall expected 23–24 May. Plan irrigation accordingly.
+              Rainfall expected 23–24 July. Plan irrigation accordingly.
             </p>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Dashboard() {
           <span className="eyebrow">Fertigation advisory</span>
           <div style={{ display: "flex", gap: 40, marginTop: 16, flexWrap: "wrap" }}>
             <div>
-              <p style={{ fontSize: "0.9rem" }}>Next fertigation: <strong>25 May 2024</strong> (after irrigation)</p>
+              <p style={{ fontSize: "0.9rem" }}>Next fertigation: <strong>25 July 2026</strong> (after irrigation)</p>
             </div>
             <div className="mono" style={{ fontSize: "0.82rem", display: "flex", gap: 24, flexWrap: "wrap", opacity: 0.85 }}>
               <span>Urea — 20 kg</span>
