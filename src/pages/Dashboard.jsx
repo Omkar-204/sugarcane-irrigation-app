@@ -33,7 +33,9 @@ export default function Dashboard() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: 16 }}>
           <div>
             <span className="eyebrow">Sample advisory · Plot-12 · 5.6 acres</span>
-            <h1 style={{ fontSize: "2rem", marginTop: 8 }}>Ramesh Patil's dashboard</h1>
+            <h1 style={{ fontSize: "2rem", marginTop: 8 }}>Sugarcane Irrigation Advisory Dashboard</h1>
+             <p style={{ opacity: 0.7, marginTop: 6 }}>Plot-12 • Ramesh Patil • Real-time irrigation recommendation dashboard</p>
+
             <p style={{ opacity: 0.7, marginTop: 6 }}>Sugarcane · Co 86032 · Planted 12 Nov 2025 · 6.2 months</p>
           </div>
           <span className="tag">Illustrative data — for demonstration only</span>
